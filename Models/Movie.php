@@ -13,7 +13,7 @@ class Movie {
         $this->timing = $_timing;
     }
 
-    public function getMovierDetai(){
+    public function getMovieDetails(){
         return "Movie: $this->title, Duration: $this->timing, Poster: $this->poster";
     }
 }
